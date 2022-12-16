@@ -3,6 +3,7 @@
 /**
  * print_line - a function that prints a straight line
  * followed by a new line.
+ * @n: number of dashes
  * Return: void
  */
 
@@ -10,13 +11,14 @@ void print_line(int n)
 {
 	int i;
 
-	if (n < 0)
-		_putchar('\n');
-
-	for (i = 0; i <= n; i++)
+	if (n >= 0)
 	{
-		_putchar('_');
+		for (i = 0; i <= n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
-
+	else
+		_putchar('\n');
 }
