@@ -5,32 +5,26 @@
  * Return: number of bytes n the initial segment of s which consist only
  * of bytes from accept
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int bytes = 0, lenS = 0, lenAccept = 0, index = 0, j = 0;
+	unsigned int bytes = 0;
+	int index;
 
-	while (s[index])
+	while (*s !='\0')
 	{
-		lenS++;
-		index++;
-	}
-	index = 0;
-	while (accept[index])
-	{
-		lenAccept++;
-		index++;
-	}
-
-	for (index = 0; index < ((lenS - 1) / 2); index++)
-	{
-		for ( ; j < lenAccept; j++)
+		for (index = 0; accept[index] != '\0'; index++)
 		{
-			if (accept[j] == s[index])
+			if (*s == accept[index])
 			{
 				break;
 			}
 		}
-		bytes++;
+		if (!(*s == accept[index]))
+			break;
+		else
+			bytes++;
+		s++;
 	}
 
 	return (bytes);
