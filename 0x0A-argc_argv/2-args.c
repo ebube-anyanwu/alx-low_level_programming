@@ -6,7 +6,7 @@
  * Return: 0 on success.
  */
 
-int main(int argc, char **argv)
+int main(__attribute__((unused)) int argc, char **argv)
 {
 	while (*argv)
 	{
