@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a program that prints its name, followed by a new line.
+ * main - a program that prints all arguments it receives.
  * @argc: argument count
  * @argv: argument value
  * Return: 0 on success.
@@ -13,5 +13,6 @@ int main(__attribute__((unused)) int argc, char **argv)
 		printf("%s\n", *argv);
 		argv++;
 	}
+	
 	return (0);
 }
