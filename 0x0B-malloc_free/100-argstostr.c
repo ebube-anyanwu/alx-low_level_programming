@@ -22,7 +22,7 @@ char *argstostr(int ac, char **av)
 			av_size++;
 	}
 
-	str_concat = malloc(sizeof(char) * (av_size + 1));
+	str_concat = malloc(sizeof(char) * av_size + 1);
 
 	if (str_concat == NULL)
 		return (NULL);
