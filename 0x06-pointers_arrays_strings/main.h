@@ -10,5 +10,8 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *s);
 char *cap_string(char *s);
 char *leet(char *);
+void print_buffer(char *b, int size);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_number(int n);
 
 #endif
