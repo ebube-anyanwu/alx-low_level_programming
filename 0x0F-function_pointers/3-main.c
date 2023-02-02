@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	if (get_op_func(operator) == NULL || operator[1] != '\0')
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 
 	if ((*operator == '/' && num2 == 0) || (*operator == '%'
