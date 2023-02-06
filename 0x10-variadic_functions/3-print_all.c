@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_char: function to print a char
+ * print_char - function to print a char
  * @args: argument of type va_list
  */
 
@@ -15,7 +15,7 @@ void print_char(va_list args)
 }
 
 /**
- * print_integer: function to print an integer.
+ * print_integer - function to print an integer.
  * @args: argument of type va_list
  */
 
@@ -27,7 +27,7 @@ void print_integer(va_list args)
 }
 
 /**
- * print_float: function to print a float.
+ * print_float - function to print a float.
  * @args: argument of type va_list
  */
 
@@ -39,7 +39,7 @@ void print_float(va_list args)
 }
 
 /**
- * print_string: function to print a string.
+ * print_string - function to print a string.
  * @args: argument of type va_list
  */
 
@@ -59,9 +59,6 @@ void print_string(va_list args)
 /**
  * print_all - a function that prints anything.
  * @format: a list of types of arguments passed to the function
- *
- * Description: I can't keep writing descriptions for every
- * piece of code
  */
 
 void print_all(const char * const format, ...)
