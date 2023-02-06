@@ -9,10 +9,10 @@
  * @symbol: that's the symbol I was just telling you about.
  * @printit: pointer to function. Stay with me.
  */
-
-typedef struct print{
+typedef struct print
+{
 	char *symbol;
-	void(*printit)(va_list);
+	void (*printit)(va_list);
 } print_t;
 
 int _putchar(char c);
