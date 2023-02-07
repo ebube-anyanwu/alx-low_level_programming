@@ -5,7 +5,7 @@
 #include <stddef.h>
 
 /**
- * print_list - a function that prints all the elements
+ * list_len - a function that returns the number of elements
  * of a list_t list
  * @h: pointer to a struct list_t
  * Return: number of nodes
