@@ -1,6 +1,5 @@
-# 0x10. C - Variadic functions
+# 0x12. C - Singly linked lists
 
 ### Learning Objectives  
-- What are variadic functions  
-- How to use va_start, va_arg and va_end macros  
-- Why and how to use the const type qualifier.
+- When and why using linked lists vs arrays  
+- How to build and use linked lists
