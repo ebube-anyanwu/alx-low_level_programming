@@ -5,7 +5,7 @@
 #include <stddef.h>
 
 /**
- * add_npode - a function that adds a new node at the beginning
+ * add_node - a function that adds a new node at the beginning
  * of a list_t list
  * @head: pointer to the first element
  * @str: string to pass
